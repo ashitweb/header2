@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header.firstheader{
+    display: flex;
+    background-color: #1D4354;
+    width: 100%;
+    padding: 0 5%
+}
+div.logo{
+    width: 20%;
+    line-height: 1;
+}
+input{
+    background-color: #2B5468;
+    
+    width: 300px;
+    height: 40px;
+    margin-top: 1%;
+}
+::placeholder{
+    color: white;
+    padding: 0 40px;
+    font-size: small;
+}
+nav.firstnav{
+    width: 40%;   
+}
+nav.firstnav ul li{
+    list-style-type:none ;
+}
+nav.firstnav ul li a{
+    text-decoration: none;
+    color: white;   
+}
+nav.firstnav ul{
+    display: flex;
+    gap: 20px;
+    line-height: 4;
+    justify-content: right;
+}
+button.signup{
+    background-color: #37A001;
+    color: white;
+    padding: 10px 30px;
+    margin-top:15px ;
+    margin-left: 10px;
+    border: #37A001;
+    
+}
+header.secondheader{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    padding: 0 5%
+}
+nav.secondnav{
+    width: 100%;   
+}
+nav.secondnav ul li{
+    list-style-type:none ;
+}
+nav.secondnav ul li a{
+    text-decoration: none;
+    color: black;   
+}
+nav.secondnav ul{
+    display: flex;
+    gap: 40px;
+    line-height: 2;
+    justify-content: center;
+}
+section.content{
+    display: flex;
+    background-color: #1D4354;
+}
+h1{
+    color: #73E143;
+    font-size: 300%;
+}
+h2{
+    color: white;
+    font-size: 300%;
+}
+p{
+    color: white;
+    font-size: 120%;
+}
+div.text{
+    width: 52%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+div.img{
+    width: 50%;
+}
+sup{
+    font-size: small;
+}
+button.btn{
+    background-color: #37A001;
+    color: white;
+    padding: 10px 30px;
+}
+button.demo{
+    background-color:white;
+    color: #37A001;
+    padding: 10px 30px;
+}
